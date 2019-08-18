@@ -1,15 +1,49 @@
-
 /* id=two ----- Skills */
-#two{
+#skills {
     padding: 50px 0px 0px;
 }
-#two h2{
+
+#skills h2 {
     padding: 30px 0px 35px;
     font-size: 45px;
 }
-#two .skillcol{
+
+#skills .skillcol {
     padding: 0px 20px 35px;
 }
-.progress-bar{
-    background-color: #1d2dfd!important;
+
+.progress-bar {
+     background-color: #5e65c7!important; 
+    
+}
+
+/*id=three ----- Experience */
+#experience {
+    padding: 20px 0px 25px;
+}
+
+#experience h2 {
+    padding: 35px 0px 50px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+@media(max-width: 767.98px) {
+    #experience .secondh {
+        padding-top: 45px !important;
+    }
+}
+
+.expitem {
+    border-left: 1px solid #5e65c7;
+    padding: 20px 0px 1px 20px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.expitem img {
+    width: 19px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
 }
