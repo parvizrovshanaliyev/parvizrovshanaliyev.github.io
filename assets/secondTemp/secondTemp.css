@@ -1,14 +1,15 @@
-
 .home {
     height: 296px;
     background-size: 100%;
     position: relative;
 }
+
 .home {
     display: table;
     width: 100%;
     padding: 3%;
 }
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -16,78 +17,96 @@
     top: 0;
     left: 0;
     z-index: 6;
-  }
-  
-  .home .home-content {
-      position: relative;
-      display: table-cell;
-      vertical-align: middle;
-  }
-  
-  .home .home-content .hero-title{
-      font-size: 60px;
-      font-weight: 800;
-      letter-spacing: -4px;
-      line-height: 125px;
-  }
-  
-  .home .home-content p{
-      font-size: 28px;
-      color: #b7b7b7;
-      font-weight: 500;
-  }
-  
-  .home .home-content p span{
-      color: #000;
-      font-weight: 900;
-  }
-  
-  .home .home-content .social{
-      right: 0;
-      top: 0;
-      position: absolute;
-      top: 45%;
-      -webkit-transform: translateY(-60%);
-      transform: translateY(-60%);
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
-      margin-right: -155px;
-      z-index: 6;
-  }
-  
-  .home .home-content .social a{
-      display: block;
-      color: #ffff;
-      font-size: 13px;
-      margin-top: 10px;
-      float: left;
-      margin-right: 15px;
-      -webkit-transition: all ease 0.3s;
-      transition: all ease 0.3s;    
-      font-weight: 600;
-  }
-  
-  
-  .home .home-content .social a.text{
-      margin-right: 0;
-  }
-  
-  .home .home-content .social a i{
-      -webkit-transition: all ease 0.3s;
-      transition: all ease 0.3s;
-  }
-  
-  .home .home-content .social a:hover i{
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      -webkit-transition: all ease 0.3s;
-      transition: all ease 0.3s;
-  }
-  
-  .home .home-content .line{
-      float: left;
-      width: 72px;
-      background: #bfbfbf;
-      height: 1px;
-      margin: 20px 17px;
-  }
+}
+
+.home .home-content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home .home-content .hero-title {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    line-height: 125px;
+}
+
+@media(max-width: 767.98px) {
+    .home .home-content .hero-title {
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -4px;
+        line-height: 100px;
+    }
+}
+
+@media(max-width: 451px) {
+    .home .home-content .hero-title {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: -2px;
+        line-height: 40px;
+    }
+}
+
+.home .home-content p {
+    font-size: 28px;
+    color: #b7b7b7;
+    font-weight: 500;
+}
+
+.home .home-content p span {
+    color: #000;
+    font-weight: 900;
+}
+
+.home .home-content .social {
+    right: 0;
+    top: 0;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-right: -155px;
+    z-index: 6;
+}
+
+.home .home-content .social a {
+    display: block;
+    color: #ffff;
+    font-size: 13px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 15px;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    font-weight: 600;
+}
+
+
+.home .home-content .social a.text {
+    margin-right: 0;
+}
+
+.home .home-content .social a i {
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.home .home-content .social a:hover i {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.home .home-content .line {
+    float: left;
+    width: 72px;
+    background: #bfbfbf;
+    height: 1px;
+    margin: 20px 17px;
+}
