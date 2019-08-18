@@ -1,1 +1,0 @@
-# beshirazizov.github.io

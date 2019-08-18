@@ -15,6 +15,17 @@
     border: solid 2px #ea0026 !important;
 
 }
+.progress-bar {
+    background-color:  #ea0026 !important; 
+   
+}
+.expitem {
+    border-left: 1px solid #ea0026 !important;
+    
+}
+.project-item-text{
+    color:#ea0026 !important;
+}
 
 footer{
     /* border-bottom: solid 6px #ea0026; */
