@@ -1704,6 +1704,7 @@ textarea.form-message{
         padding: 18px;
     }
   
+
     .home .home-content .hero-title {
         font-size: 20px;
         line-height: 64px;
@@ -1746,6 +1747,14 @@ textarea.form-message{
         height: 180px;
     }
 
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        top: -74%;
+        left: 0;
+        z-index: 6;
+    }
     .about .about-text .subtitle {
         font-size: 24px;
         line-height: 30px;
@@ -1856,6 +1865,15 @@ textarea.form-message{
     .titlebar #particles-js {
         height: 130px;
     }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        top: -74%;
+        left: 0;
+        z-index: 6;
+      }
 
     .about .about-text .subtitle {
         font-size: 20px;
